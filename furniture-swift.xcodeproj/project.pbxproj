@@ -14,6 +14,7 @@
 		04A27FB92E7735AA00A5338D /* furniture_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A27FB82E7735AA00A5338D /* furniture_swiftTests.swift */; };
 		04A27FC32E7735AA00A5338D /* furniture_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A27FC22E7735AA00A5338D /* furniture_swiftUITests.swift */; };
 		04A27FC52E7735AA00A5338D /* furniture_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A27FC42E7735AA00A5338D /* furniture_swiftUITestsLaunchTests.swift */; };
+		04A27FD32E7DE30B00A5338D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A27FD22E7DE30B00A5338D /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		04A27FBE2E7735AA00A5338D /* furniture-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "furniture-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A27FC22E7735AA00A5338D /* furniture_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = furniture_swiftUITests.swift; sourceTree = "<group>"; };
 		04A27FC42E7735AA00A5338D /* furniture_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = furniture_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04A27FD22E7DE30B00A5338D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		04A27FA62E7735A800A5338D /* furniture-swift */ = {
 			isa = PBXGroup;
 			children = (
+				04A27FD12E7DE2E000A5338D /* Models */,
 				04A27FA72E7735A800A5338D /* furniture_swiftApp.swift */,
 				04A27FA92E7735A800A5338D /* ContentView.swift */,
 				04A27FAB2E7735AA00A5338D /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				04A27FC42E7735AA00A5338D /* furniture_swiftUITestsLaunchTests.swift */,
 			);
 			path = "furniture-swiftUITests";
+			sourceTree = "<group>";
+		};
+		04A27FD12E7DE2E000A5338D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04A27FD22E7DE30B00A5338D /* Product.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				04A27FAA2E7735A800A5338D /* ContentView.swift in Sources */,
 				04A27FA82E7735A800A5338D /* furniture_swiftApp.swift in Sources */,
+				04A27FD32E7DE30B00A5338D /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
