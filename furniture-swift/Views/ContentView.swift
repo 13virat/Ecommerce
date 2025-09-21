@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var cartManager = CartManager()
     @State var currentTab: Tab = .Home
     
     init(){
@@ -17,10 +18,8 @@ struct ContentView: View {
     @Namespace var animation
     var body: some View {
         TabView(selection: $currentTab) {
-            Text("Home View")
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background()
-                .tag(Tab.Home)
+            HomePageView()
+            
             Text("Search View")
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background()
@@ -87,6 +86,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(CartManager())
     }
 }
 

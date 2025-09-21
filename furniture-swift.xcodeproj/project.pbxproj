@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047836622E80448800BAB8D7 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047836612E80448800BAB8D7 /* HomePageView.swift */; };
+		047836642E806F0400BAB8D7 /* CardProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047836632E806F0400BAB8D7 /* CardProductView.swift */; };
 		04A27FA82E7735A800A5338D /* furniture_swiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A27FA72E7735A800A5338D /* furniture_swiftApp.swift */; };
 		04A27FAA2E7735A800A5338D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A27FA92E7735A800A5338D /* ContentView.swift */; };
 		04A27FAC2E7735AA00A5338D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A27FAB2E7735AA00A5338D /* Assets.xcassets */; };
@@ -15,6 +17,11 @@
 		04A27FC32E7735AA00A5338D /* furniture_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A27FC22E7735AA00A5338D /* furniture_swiftUITests.swift */; };
 		04A27FC52E7735AA00A5338D /* furniture_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A27FC42E7735AA00A5338D /* furniture_swiftUITestsLaunchTests.swift */; };
 		04A27FD32E7DE30B00A5338D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A27FD22E7DE30B00A5338D /* Product.swift */; };
+		04A27FD62E7E9A4A00A5338D /* ImageSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A27FD52E7E9A4A00A5338D /* ImageSliderView.swift */; };
+		04A8BEA82E7F465C00B2343A /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8BEA72E7F465C00B2343A /* ProductCardView.swift */; };
+		04A8BEAA2E7F469300B2343A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8BEA92E7F469300B2343A /* SearchView.swift */; };
+		04A8BEAC2E7FEA7000B2343A /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8BEAB2E7FEA7000B2343A /* CartManager.swift */; };
+		04A8BEAE2E801EFF00B2343A /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8BEAD2E801EFF00B2343A /* CartButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047836612E80448800BAB8D7 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		047836632E806F0400BAB8D7 /* CardProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProductView.swift; sourceTree = "<group>"; };
 		04A27FA42E7735A800A5338D /* furniture-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "furniture-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A27FA72E7735A800A5338D /* furniture_swiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = furniture_swiftApp.swift; sourceTree = "<group>"; };
 		04A27FA92E7735A800A5338D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +55,11 @@
 		04A27FC22E7735AA00A5338D /* furniture_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = furniture_swiftUITests.swift; sourceTree = "<group>"; };
 		04A27FC42E7735AA00A5338D /* furniture_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = furniture_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		04A27FD22E7DE30B00A5338D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		04A27FD52E7E9A4A00A5338D /* ImageSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderView.swift; sourceTree = "<group>"; };
+		04A8BEA72E7F465C00B2343A /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
+		04A8BEA92E7F469300B2343A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		04A8BEAB2E7FEA7000B2343A /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		04A8BEAD2E801EFF00B2343A /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +110,13 @@
 		04A27FA62E7735A800A5338D /* furniture-swift */ = {
 			isa = PBXGroup;
 			children = (
+				04A8BEAF2E8020FB00B2343A /* Views */,
+				04A27FD42E7E9A1300A5338D /* Components */,
 				04A27FD12E7DE2E000A5338D /* Models */,
 				04A27FA72E7735A800A5338D /* furniture_swiftApp.swift */,
-				04A27FA92E7735A800A5338D /* ContentView.swift */,
 				04A27FAB2E7735AA00A5338D /* Assets.xcassets */,
 				04A27FAD2E7735AA00A5338D /* Preview Content */,
+				04A8BEAB2E7FEA7000B2343A /* CartManager.swift */,
 			);
 			path = "furniture-swift";
 			sourceTree = "<group>";
@@ -136,6 +152,27 @@
 				04A27FD22E7DE30B00A5338D /* Product.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		04A27FD42E7E9A1300A5338D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				04A27FD52E7E9A4A00A5338D /* ImageSliderView.swift */,
+				04A8BEA72E7F465C00B2343A /* ProductCardView.swift */,
+				04A8BEA92E7F469300B2343A /* SearchView.swift */,
+				04A8BEAD2E801EFF00B2343A /* CartButton.swift */,
+				047836632E806F0400BAB8D7 /* CardProductView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		04A8BEAF2E8020FB00B2343A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04A27FA92E7735A800A5338D /* ContentView.swift */,
+				047836612E80448800BAB8D7 /* HomePageView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,8 +306,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A27FAA2E7735A800A5338D /* ContentView.swift in Sources */,
+				04A8BEAE2E801EFF00B2343A /* CartButton.swift in Sources */,
+				04A27FD62E7E9A4A00A5338D /* ImageSliderView.swift in Sources */,
+				04A8BEAC2E7FEA7000B2343A /* CartManager.swift in Sources */,
 				04A27FA82E7735A800A5338D /* furniture_swiftApp.swift in Sources */,
 				04A27FD32E7DE30B00A5338D /* Product.swift in Sources */,
+				04A8BEAA2E7F469300B2343A /* SearchView.swift in Sources */,
+				047836622E80448800BAB8D7 /* HomePageView.swift in Sources */,
+				047836642E806F0400BAB8D7 /* CardProductView.swift in Sources */,
+				04A8BEA82E7F465C00B2343A /* ProductCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
