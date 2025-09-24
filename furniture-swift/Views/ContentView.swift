@@ -19,7 +19,7 @@ struct ContentView: View {
     var body: some View {
         TabView(selection: $currentTab) {
             HomePageView()
-            
+                .environmentObject(cartManager)
             Text("Search View")
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background()
